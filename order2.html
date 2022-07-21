@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/order2.css">
+    <link rel="icon" type="image/png" href="logo.png" height="300px" width="300px">
+    <script src="js/script.js"></script>
+
+    <!-- fontawesome  --> 
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+          <script src="https://kit.fontawesome.com/e384e50554.js" crossorigin="anonymous"></script>
+    <!-- fontawesome end -->
+    <!-- css -->
+    <!-- css end -->
+  
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Coffee | Coffee Town</title>
+</head>
+<body>
+   
+    <div class="navbar">
+        <div class="container">
+          <div class="navbar-nav">
+            <div class="navbar-brand">
+              <img class="navbar-brand-txt" src="images/—Pngtree—coffee_3626459.png" height="200px" width="300px"><a class="txt-bold type-1" href="/"></a>
+            </div>
+  
+            <span class="navbar-toggler" id="toggler"><i onclick="toggleNavbar(this)" class="fas fa-bars"></i></span>
+  
+            <div class="navs" id="navs">
+  
+              <div class="navs-item notbtn"><a href="index.html" class="txt-uppercase">HOME</a></div>
+              <div class="navs-item notbtn"><a href="order.html" class="txt-uppercase">ORDER</a></div>
+              <div class="navs-item notbtn"><a href="signup.html" class="txt-uppercase">SIGN UP</a></div>
+              <div class="navs-item notbtn"><a href="login.html" class="txt-uppercase">LOGIN</a></div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+        <form>
+            <label>Macchiato 15 AED</label>
+            <br>
+            Quantity: <input type="number" id="quantity" placeholder="Quantity">
+            <br>
+            <br>
+        </form>
+        <p>Your bill for today is:</p>
+        <p id="bill"> </p>
+
+        <button class="butn2"><a href="checkout.html">Checkout</a></button>
+    
+      <h1>Choose your location</h1>
+  <center>    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230675.07098037587!2d55.30475881206996!3d25.394834198246343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5db2434b5493%3A0xfa9b9d665c2496f!2sThe%20Coffee%20Bean%20%26%20Tea%20Leaf!5e0!3m2!1sen!2sae!4v1658408578765!5m2!1sen!2sae" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="txt"></iframe></center>
+  <div class="button">
+  <button class="butn" onclick="calcbill()">Confirm</button>
+  </div>
+      
+</body>
+</html>
